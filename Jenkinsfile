@@ -27,12 +27,13 @@ pipeline {
         }   
         }
     }
-}  stage ('Deploy'){
+} 
+/* stage ('Deploy'){
             steps{
                 sh 'kubectl apply -f Deployment.yml'
                 sh 'kubectl get all -o wide'
                }
-        }   
+        }   */
         
     }
 }
