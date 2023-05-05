@@ -12,7 +12,7 @@ pipeline {
         }
         stage ('NPM Build'){
             steps {
-                sh 'npm version;npm install;npm -g @angular/cli;ng v;ng build'
+                sh 'npm version;npm install;npm install -g @angular/cli;ng v;ng build'
                     }    
         
             }
